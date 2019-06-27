@@ -1,0 +1,176 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2019-06-27T01:50:41.632Z",
+  "__export_source": "insomnia.desktop.app:v6.5.4",
+  "resources": [
+    {
+      "_id": "req_9c8178272c584cc2b647ea77efead9b6",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"taskTitle\": \"TAREFA 03\"\n}"
+      },
+      "created": 1561599837702,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_934e594af4294e9cb33f3db48a8de8ee",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1561599837702,
+      "method": "POST",
+      "modified": 1561600009793,
+      "name": "Criar tarefa em um projeto",
+      "parameters": [],
+      "parentId": "wrk_2ded52d4be6d49f0b2638348e8dd308b",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3000/projects/1/tasks",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_2ded52d4be6d49f0b2638348e8dd308b",
+      "created": 1561577534915,
+      "description": "",
+      "modified": 1561577534915,
+      "name": "Challenge 01 - GoStack",
+      "parentId": null,
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_8d32af36bd8547248184cbfbb612bffe",
+      "authentication": {},
+      "body": {},
+      "created": 1561598063166,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1561598063167,
+      "method": "DELETE",
+      "modified": 1561599979389,
+      "name": "Excluir Projeto",
+      "parameters": [],
+      "parentId": "wrk_2ded52d4be6d49f0b2638348e8dd308b",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3000/projects/1",
+      "_type": "request"
+    },
+    {
+      "_id": "req_49ee0e0e56084467b2c02f1b2f7da5ef",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"title\": \"titulo atualizado\"\n}"
+      },
+      "created": 1561580024138,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_34fbff059eb54bb19b0d7da3131bfbf4",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1561580024138,
+      "method": "PUT",
+      "modified": 1561598712029,
+      "name": "Atualizar titulo do projeto",
+      "parameters": [],
+      "parentId": "wrk_2ded52d4be6d49f0b2638348e8dd308b",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3000/projects/2",
+      "_type": "request"
+    },
+    {
+      "_id": "req_88202a3df6ec4ff293f8b590ec66637f",
+      "authentication": {},
+      "body": {},
+      "created": 1561578269950,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1561578269950,
+      "method": "GET",
+      "modified": 1561578281768,
+      "name": "Ver Todos os Projetos e Tarefas",
+      "parameters": [],
+      "parentId": "wrk_2ded52d4be6d49f0b2638348e8dd308b",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3000/projects",
+      "_type": "request"
+    },
+    {
+      "_id": "req_40753ec3be844648b203499b1de7b328",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"id\": \"1\",\n\t\"title\": \"Novo Projeto 1\"\n}"
+      },
+      "created": 1561577581842,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_068d3dcb38174e7b870efc9ad5ce393f",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1561577581843,
+      "method": "POST",
+      "modified": 1561599903251,
+      "name": "Criar Projeto",
+      "parameters": [],
+      "parentId": "wrk_2ded52d4be6d49f0b2638348e8dd308b",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3000/projects",
+      "_type": "request"
+    },
+    {
+      "_id": "env_04769adad15c8a9a78cc2fa5a641dd2f3330a473",
+      "color": null,
+      "created": 1561577535118,
+      "data": {},
+      "dataPropertyOrder": null,
+      "isPrivate": false,
+      "metaSortKey": 1561577535118,
+      "modified": 1561577535118,
+      "name": "Base Environment",
+      "parentId": "wrk_2ded52d4be6d49f0b2638348e8dd308b",
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_04769adad15c8a9a78cc2fa5a641dd2f3330a473",
+      "cookies": [],
+      "created": 1561577535122,
+      "modified": 1561577535122,
+      "name": "Default Jar",
+      "parentId": "wrk_2ded52d4be6d49f0b2638348e8dd308b",
+      "_type": "cookie_jar"
+    }
+  ]
+}
