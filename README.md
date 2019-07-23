@@ -1,6 +1,6 @@
 # Project Name
 
-Hardzork's GoStack 7.0 Chalenge 01
+Hardzork's GoStack 7.0 Challenge 01
 
 # Challenge description
 
